@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+.why {
+    position: relative;
+    padding: 40px 0;
+    text-align: center;
+    background-color: #ebb94d;
+    color: #fff;
+}
+
+.circle2 {
+    color: #ebb94d;
+    background-color: #fff;
+    padding: 0;
+    margin: 0;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.whitebrackets {
+    margin: 0 auto;
+    position: relative;
+    width: 860px;
+    max-width: calc(100% - 40px);
+    padding: 15px 30px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.whitebrackets::before {
+    top: 0;
+    left: 0;
+    border-top: 4px solid #fff;
+    border-left: 4px solid #fff;
+}
+
+.whitebrackets::before, .whitebrackets::after {
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 50px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.whitebrackets::after {
+    bottom: 0;
+    right: 0;
+    border-bottom: 4px solid #fff;
+    border-right: 4px solid #fff;
+}
+
+.why:after {
+    content: " ";
+    height: 0;
+    position: absolute;
+    width: 0;
+    border: 25px solid transparent;
+    border-top-color: #ebb94d;
+    top: 100%;
+    left: 50%;
+    margin-left: -25px;
+}
+
+@media only screen and (max-width: 1190px) and (min-width: 768px){
+    .circle2 {
+        font-size: 20px;
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+    }
+
+    .why .txtl {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .why {
+        padding: 20px 0;
+    }
+
+    .qaicon {
+        margin-bottom: 10px;
+    }
+
+    .circle2 {
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        font-size: 12px;
+    }
+
+    .yellowbracketsnarrow, .whitebrackets {
+        margin: 0 auto;
+        position: relative;
+        width: 95%;
+        max-width: calc(100% - 20px);
+        padding: 10px 10px;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    .why .txtl {
+        font-size: 14px;
+    }
+
+    .why:after {
+        height: 0;
+        position: absolute;
+        width: 0;
+        border: 15px solid transparent;
+        border-top-color: #ebb94d;
+        top: 100%;
+        left: 50%;
+        margin-left: -15px;
+    }
+}
+
+
+
+

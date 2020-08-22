@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+.class {
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+    background-image: url(images/classbg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.classbox {
+    padding: 40px 0;
+    max-width: 780px;
+    margin: 0 auto;
+}
+
+.class .container{
+    overflow: hidden;
+    width: 1170px;
+}
+
+.classbox .row{
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.classwrap {
+    background-color: #fff;
+    border: 2px solid #016ea9;
+    padding: 0;
+    border-radius: 5px;
+}
+
+.classbox .txtm {
+    background-color: #016ea9;
+    padding: 15px;
+}
+
+.classwrap ul {
+    padding: 0;
+    margin: 0;
+}
+
+.class ul li {
+    padding: 10px;
+    border-bottom: 1px dotted #e5e5e5;
+}
+
+.classbox ul li {
+    color: #000000;
+}
+
+.class ul li:last-child {
+    border-bottom: none;
+}
+
+@media screen and (min-width: 992px){
+    .col-md-6 {
+        width: calc(50% - 30px);
+        float: left;
+        position: relative;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
+
+@media only screen and (max-width: 1190px) and (min-width: 768px) {
+    .class .container {
+        width: calc(780px - 20%);
+    }
+
+    .classbox {
+        padding: 30px 10%;
+    }
+
+    .classlist {
+        margin-top: 15px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .classbox {
+        padding: 20px 10px;
+    }
+
+    .class .container{
+        width: 93%;
+    }
+
+    .classlist:last-child {
+        margin-top: 15px;
+    }
+}

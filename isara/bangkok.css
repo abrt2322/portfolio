@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+.bangkok {
+    background-image: url(images/bangkokbg.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 80px 80px;
+    color: #fff;
+}
+
+.bangkokdetail {
+    width: 1170px;
+    max-width: calc(100% - 40px);
+    margin: 0 auto;
+}
+
+.bangkokdetail .txtl {
+     font-size: 24px;
+     margin-bottom: 20px;
+     letter-spacing: 3px;
+}
+
+.bangkoklist {
+    margin: 20px 0;
+}
+
+@media only screen and (max-width: 1190px) and (min-width: 768px){
+    .bangkok{
+        padding: 40px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .bangkok {
+        background-image: url(images/bangkokbgsp.jpg);
+        padding: 20px 15px;
+    }
+
+    .bangkokdetail .txtl {
+        text-align: center;
+    }
+    
+}

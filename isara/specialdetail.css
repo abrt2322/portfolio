@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+.specialdetail {
+    padding: 40px 0;
+    text-align: center;
+    color: #fff;
+    background-image: url(images/specialdetail.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.specialdetail .txtl {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.specialdetail .txtm {
+    margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 1190px) and (min-width: 768px) {
+    .specialdetail {
+        padding: 40px;
+    }
+
+    .specialdetail .txtm {
+        font-size: 16px;
+    }
+
+
+}
+
+
+@media screen and (max-width: 768px) {
+    .specialdetail {
+        background-image: url(images/specialdetailsp.jpg);
+        padding: 20px 10px;
+    }
+
+    .specialdetail .txtm {
+        letter-spacing: 1px;
+        font-size: 12px;
+    }
+
+
+}

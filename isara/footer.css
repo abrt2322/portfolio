@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+.footerwrap {
+    position: relative;
+    padding: 40px 15px 20px 15px;
+    background-color: #ececec;
+    text-align: center;
+}
+
+.copyright {
+    font-size: 10px;
+    font-weight: 300;
+    margin-bottom: 0;
+    padding-bottom: 5px;
+}
+
+.list-inline {
+    padding-left: 0;
+    margin-left: -5px;
+    list-style: none;
+}
+
+@media screen and (max-width: 768px) {
+    .footerwrap {
+        padding: 20px 15px 0 0;
+    }
+}

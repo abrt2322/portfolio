@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+.aboutthird{
+    padding: 40px 0;
+    text-align: center;
+    background-color: #016ea9;
+    color: #fff;
+}
+
+.aboutthird p {
+    margin: 0;
+}
+
+.aboutthird p span{
+    margin: 0;
+}
+
+@media screen and (max-width: 768px){
+    .aboutthird .txtm {
+        font-size: 12px;
+    }
+}

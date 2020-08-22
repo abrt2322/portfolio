@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+.learning{
+    text-align: center;
+    padding: 40px 0;
+}
+
+.learning .txtl {
+    margin-bottom: 35px;
+}
+
+.learning .txtm {
+    font-weight: 300;
+}
+
+.learning .container {
+    padding: 0;
+    width: 860px;
+    max-width: calc(100% - 40px);
+    margin: 40px auto;
+}
+
+.learningbox{
+    width: calc(25% - 30px);
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.learningbox img {
+    width: 180px;
+}
+
+@media only screen and (max-width: 1190px) and (min-width: 768px) {
+    .learning .container{
+        padding: 20px 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .learning {
+        padding: 20px 0;
+    }
+
+    .learning .container {
+        padding: 0 50px;
+        max-width: calc(100% - 140px);
+        margin-top: 0;
+        margin-bottom: 15px;
+    }
+
+    .learningbox {
+        padding: 5px;
+        width: calc(25% - 10px);
+    }
+
+    .learningbox img {
+        width: 120px;
+    }
+
+}

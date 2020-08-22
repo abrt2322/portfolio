@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+.main-container{
+    width: calc(100% - 60px);
+    height: calc(100% - 60px);
+    padding: 30px;
+    overflow: hidden;
+    position: relative;
+}
+
+.page{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    background-color: #F2F2F2;
+}
+
+.wrap{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    background-color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+.wrap h2{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    color: #515151;
+    margin-top: 25px;
+    letter-spacing: 2px;
+}
+
+.wrap .divider{
+    transform: scale(0.8);
+    width: 59px;
+    height: 10px;
+    margin: 30px auto;
+    background: url("../../About/asset/images/divider.png");
+}
+
+.inner{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    /*height: 100vh;*/
+    width: 100%;
+}
+
+.row{
+
+}
+
+/*.row:nth-child(n+2){*/
+/*    margin-top: 30px;*/
+/*}*/
+
+.p1{
+    background-image: url("../img/isara.png");
+}
+
+.p2{
+    background-image: url("../img/Hair.png");
+}
+
+.p3{
+    background-image: url("../img/Magazin.png");
+}
+
+.p4{
+    background-image: url("../img/Clinic.png");
+}
+
+.p5{
+    background-image: url("../img/Nest.png");
+}
+
+.gal{
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+}
+
+.inner a{
+    display: block;
+    width: 29%;
+    height: 200px;
+    margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 780px) {
+    .inner a{
+        width: 45%;
+        height: 175px;
+        /*background-size: cover;*/
+        /*background-position: center;*/
+        /*margin-bottom: 30px;*/
+    }
+
+}
+
+
+
+
+
+
+
+
+
+

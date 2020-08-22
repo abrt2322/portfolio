@@ -1,0 +1,171 @@
+@charset "UTF-8";
+
+.special {
+    background-position: center calc(100% - -11px);
+    background-repeat: no-repeat;
+    background-size: 300px auto;
+    padding: 40px 0;
+    text-align: center;
+    background-color: #f7c23c;
+}
+
+.special h2 {
+    margin-bottom: 40px;
+}
+
+.specialpeople {
+    position: relative;
+    bottom: -58px;
+    width: 45%;
+    background-color: #f7c23c;
+    margin: 0 auto;
+}
+
+.whitetxt {
+    color: #fff;
+    font-weight: 600;
+}
+
+
+
+.specialbox {
+    margin-top: 40px;
+    padding: 40px;
+    border: 2px solid #fff;
+}
+
+.specialbox .row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.specialsp {
+    display: none;
+}
+
+.special .container {
+    overflow: hidden;
+    width: 1086px;
+}
+
+.tokuten {
+    width: 250px;
+    height: 250px;
+    background-color: #fff;
+    padding: 0;
+    margin: 10px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.tokuten .tokutenbox {
+    padding: 15px;
+    height: 220px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.tokutenbox .txtm {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.yellowtxt {
+    color: #ebb94d;
+}
+
+.tokuten .txts {
+    font-size: 14px;
+}
+
+
+
+@media screen and (min-width: 992px){
+
+    .specialpc .col-md-4 {
+        width: calc(33.33333333% - 30px);
+        float: left;
+        position: relative;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+}
+
+@media only screen and (max-width: 1190px) and (min-width: 768px) {
+    .special {
+        padding: 40px;
+    }
+
+    .specialpeople {
+        width: 400px;
+        bottom: -76px;
+    }
+
+    .special .container {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .special .container {
+        width: auto;
+    }
+
+    .special {
+        background-position: center calc(100% + 9px);
+        background-size: 175px auto;
+        padding: 20px 0;
+    }
+
+    .special h2 {
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+
+    .specialpeople {
+        bottom: -37px;
+        width: 250px;
+    }
+
+    .specialbox {
+        color: #fff;
+        padding: 30px;
+        margin: 0 15px;
+    }
+
+    .specialpc {
+        display: none;
+    }
+
+    .specialspbox {
+        margin: 15px 0;
+        overflow: hidden;
+    }
+
+    .specialleft {
+        width: 30%;
+        float: left;
+        padding: 0;
+    }
+
+    .circle2 {
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        font-size: 12px !important;
+    }
+
+    .specialright {
+        padding: 12px 0;
+        overflow: hidden;
+        text-align: left;
+    }
+
+    .specialsp{
+        display: block;
+    }
+
+}
