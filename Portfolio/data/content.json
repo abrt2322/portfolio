@@ -8,7 +8,7 @@
       "thumb": "img/理容美容230.png",
       "large": "https://drive.google.com/drive/u/0/folders/1sHzM6SZDs6hVabItWt0LJcqxTIEZ-HtV"
     },
-    "date": "2012-01-12"
+    "date": "2020-08-22"
   },
   {
     "title": "理容院 SP",
@@ -19,7 +19,7 @@
       "thumb": "img/理容美容SP230.png",
       "large": "https://drive.google.com/drive/u/0/folders/1sHzM6SZDs6hVabItWt0LJcqxTIEZ-HtV"
     },
-    "date": "2012-01-13"
+    "date": "2020-08-22"
   },
   {
     "title": "脳外科 PC",
@@ -30,7 +30,7 @@
       "thumb": "img/脳外科230.png",
       "large": "https://drive.google.com/drive/u/0/folders/1sHzM6SZDs6hVabItWt0LJcqxTIEZ-HtV"
     },
-    "date": "2012-01-14"
+    "date": "2020-08-22"
   },
   {
     "title": "脳外科 SP",
@@ -41,7 +41,7 @@
       "thumb": "img/脳外科SP230.png",
       "large": "https://drive.google.com/drive/u/0/folders/1sHzM6SZDs6hVabItWt0LJcqxTIEZ-HtV"
     },
-    "date": "2012-01-15"
+    "date": "2020-08-22"
   },
   {
     "title": "オリジナル 農業サイト TOP",
@@ -53,7 +53,7 @@
       "thumb": "img/top.png",
       "large": "https://service.takedano.com"
     },
-    "date": "2012-01-07"
+    "date": "2020-08-22"
   },
   {
     "title": "オリジナル　農業サイト 検索ページ",
@@ -63,9 +63,9 @@
     },
     "images": {
       "thumb": "img/note.png",
-      "large": "https://service.takedano.com"
+      "large": "https://service.takedano.com/note2.php"
     },
-    "date": "2012-01-08"
+    "date": "2020-08-22"
   },
   {
     "title": "オリジナル　農業サイト SHOP編",
@@ -75,9 +75,9 @@
     },
     "images": {
       "thumb": "img/Shop.png",
-      "large": "https://service.takedano.com"
+      "large": "https://service.takedano.com/shop2.php"
     },
-    "date": "2012-01-09"
+    "date": "2020-08-22"
   },
   {
     "title": "オリジナル　農業サイト 記事一覧",
@@ -87,9 +87,9 @@
     },
     "images": {
       "thumb": "img/tech.png",
-      "large": "https://service.takedano.com"
+      "large": "https://service.takedano.com/tech2.php"
     },
-    "date": "2012-01-10"
+    "date": "2020-08-22"
   },
   {
     "title": "オリジナル 農業サイト SNS",
@@ -99,9 +99,9 @@
     },
     "images": {
       "thumb": "img/sns.png",
-      "large": "https://service.takedano.com"
+      "large": "https://service.takedano.com/sns2.php"
     },
-    "date": "2012-01-11"
+    "date": "2020-08-22"
   },
   {
     "title": "Clinic 試作",
@@ -112,7 +112,7 @@
       "thumb": "img/Clinic230.png",
       "large": "../Clinik"
     },
-    "date": "2012-01-01"
+    "date": "2020-08-22"
   },
   {
     "title": "オンラインスクール　試作",
@@ -123,7 +123,7 @@
       "thumb": "img/nest2.png",
       "large": "../charebge"
     },
-    "date": "2012-01-02"
+    "date": "2020-08-22"
   },
   {
     "title": "美容院　試作",
@@ -134,7 +134,7 @@
       "thumb": "img/Hair230.png",
       "large": "../Hair"
     },
-    "date": "2012-01-03"
+    "date": "2020-08-22"
   },
 
   {
@@ -146,7 +146,7 @@
       "thumb": "img/Magazin230.png",
       "large": "../Magazine"
     },
-    "date": "2012-01-05"
+    "date": "2020-08-22"
   },
   {
     "title": "Isara　模写",
@@ -157,7 +157,7 @@
       "thumb": "img/isara230.png",
       "large": "../isara"
     },
-    "date": "2012-01-04"
+    "date": "2020-08-22"
   },
   {
     "title": "ホームページ　試作",
@@ -168,6 +168,6 @@
       "thumb": "img/stay2.png",
       "large": "../StayWorld"
     },
-    "date": "2012-01-06"
+    "date": "2020-08-22"
   }
 ]
