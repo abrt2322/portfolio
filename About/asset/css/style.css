@@ -22,7 +22,7 @@
         transform: scale(0.8);
         width: 59px;
         height: 10px;
-        margin: 60px auto;;
+        margin: 30px auto;;
         background: url("../images/divider.png");
     }
 
@@ -141,6 +141,14 @@
 
     .wrap{
         padding-top: 0px;
+    }
+
+    .row{
+        padding: 0;
+    }
+
+    .page{
+        padding: 30px 20px;
     }
 
     /*.content h3{*/

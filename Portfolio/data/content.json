@@ -169,5 +169,17 @@
       "large": "../StayWorld"
     },
     "date": "2020-08-22"
+  },
+  {
+    "title": "Pacific Mall",
+    "category": {
+      "thumb": "WordPress",
+      "large": "Responsive"
+    },
+    "images": {
+      "thumb": "img/Pacific.png",
+      "large": "https://wp.takedano.com"
+    },
+    "date": "2020-08-22"
   }
 ]
